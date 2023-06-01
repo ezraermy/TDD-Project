@@ -81,7 +81,7 @@ To run linters tests, run the following command:
 To run unit tests, run the following command:
 
 ```bash
-  rspec spec
+  rspec solver_spec.rb
 ```
 
 ### Run console
