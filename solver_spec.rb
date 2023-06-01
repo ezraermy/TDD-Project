@@ -16,4 +16,13 @@ describe Solver do
       expect { solver.factorial(-1) }.to raise_error(ArgumentError)
     end
   end
+
+  describe '#reverse' do
+    it 'returns empty string when given empty string' do
+      expect(solver.reverse('')).to eq('')
+    end
+    it 'returns a correct reversed string when given a non-empty string' do
+      expect(solver.reverse('hello')).to eq('olleh')
+    end
+  end
 end
