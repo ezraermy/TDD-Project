@@ -8,4 +8,13 @@ class Solver
         end
         result
     end
+
+    def reverse(str)
+        result = ""
+        return result if str.empty?
+        (0..str.length - 1).each do |i|
+            result += str[str.length - 1 - i]
+        end
+        result
+    end
 end
