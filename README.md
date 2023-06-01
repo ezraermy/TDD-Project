@@ -1,4 +1,4 @@
-# school-library<a name="readme-top"></a>
+# TDD-Project<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -86,7 +86,7 @@ To run unit tests, run the following command:
 
 ### Run console
 ```bash
-ruby main.rb
+ruby solver.rb
 ```
 
 <p align="right"><a href="#readme-top">👆</a></p>
